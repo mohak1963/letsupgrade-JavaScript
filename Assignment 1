@@ -1,0 +1,39 @@
+Question 1 :
+Explore and explain the various methods in console function
+Explain them
+Ex. console.log()
+console.warn().
+Answer: 
+console.log() //it prints on console
+console.error() //it shows the output as an error
+console.warn() //displays output as warning
+console.clear() // clears the console screen
+console.table() //creates table write input in form of array
+console.count() //counts no of times function is hitted or targetted
+console.timeEnd('abc') //time taken for function to execute
+console.group() and console.groupEnd() // groups anything written inside it.
+
+Ques2.Write the difference between var, let and const with code examples.
+1.var:it is function scoped. It is used to declare a variable.
+If a variable is declared for a particular function using var we can access it outside the function also.
+It defines data type as string.
+Eg. var a=1
+    Console.log(typeof a); op is string
+2.let: it is block scoped used to declare a variable ie we can't access the variable outside the block.
+It defines the datatype according to the value of the variable.
+Eg. Let a=1
+  console.log(typeof a); op is number
+Variables are temporary memory locations and we can change the values
+3. Const: it is for declaring a constant whose value will not change.
+Constants's value cannot be changed.
+Eg. const a=1;
+
+Ques3. Write a brief intro on available data types in Javascript.
+Ans: available dataypes are:
+1.number: dataype for numbers any number it can be int or float
+2.string:for alphabets
+3.boolean: for Boolean values ie true of false
+4.null:represents “nothing”, “empty” or “value unknown”.
+5.undefined:variable whose value is not assigned
+6.object:objects are used to store collections of data and more complex entities
+7.symbol:The symbol type is used to create unique identifiers for objects
