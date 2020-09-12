@@ -1,0 +1,59 @@
+Question 1:Write a JS code which takes input from the user and logs it in the console
+Answer: 
+var a= prompt("enter the value");
+console.log(a);
+
+Question 2:
+Explain with examples the remaining methods of String and Array
+Answer:
+Array methods
+1.toString() : converts an array to a string of (comma separated) array values.
+Eg.
+a=["1","2","3"];
+b=a.tostring();
+Output will be :1,2,3
+2.tojoin(): same as tostring() except it separates with the operator we want.
+Eg. 
+a=["1","2","3"]
+b=a.tojoin("!");
+Output:1!2!3
+3.pop(): removes last element
+Eg.
+a.pop(); //removes last element
+4.shift(): removes first element
+5.unshift(): adds new element to the 0 index.
+Eg. a.unshift("7");
+Op: a=["7","1","2","3"]
+6.a[0] = "10";
+// It will replace 7with 10
+7.delete(): deletes the first element and shows undefined.
+8.splice(): it will remove the elements from the index we want.
+Eg. a.splice(0,2,"10","5") // it will remove first two elements and replace with the 2 values given
+9.concat(): it joins the arrays.
+Eg.a=[1,2];
+B=[3,4];
+a.concat(B);
+Concats a with b
+10.sort(): sorts the array.
+
+String methods
+1.toUpperCase(): converts each character to upper case
+2.toLowerCase():converts each character to lower case
+3.concat():joins two strings
+Eg.var text1 = "12";
+var text2 = "34";
+var text3 = text1.concat(" ", text2);
+4.trim():removes white space
+Eg.var str = "       White space!        ";
+alert(str.trim());
+
+Question 3:Ask the user if he is 21+ and log the value "Can drink", "Cannot Drink".
+Answer:age=prompt("enter your age");
+if(age>21)
+{
+console.log("can drink")
+}
+else
+{
+console.log("cannot drink")
+}
